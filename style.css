@@ -1,0 +1,273 @@
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+header {
+    width: 100%;
+    padding-bottom: 4%;
+    border-bottom: 4px solid #451474;
+}
+header .logo {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+header .logo img {
+    width: 150px;
+    margin-top: 5%;
+}
+
+header .logo h1 {
+    margin-top: 10%;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: normal;
+    color: rgb(90, 16, 90);
+}
+
+.nav {
+    width: 100%;
+    margin-top: 4%;
+    display: flex;
+    padding-left: 0;
+    margin-left: 0;
+    justify-content: space-around;
+    background-color: #808080;
+}
+.nav li {
+    list-style-type: none;
+    width: 100%;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    width: 20%;
+    text-align: center;
+    font-size: 26px;
+    line-height: 57px;
+
+    transition: 0.5s 0s;
+}
+.nav a:hover {
+    letter-spacing: 3px;
+    background-color: rgb(94, 10, 94);
+    box-shadow: 0 5px 5px #000;
+}
+
+.cards {
+    width: 94%;
+    margin:  auto;
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-between;
+}
+.cards .card  {
+    width: 28%;
+    position: relative;
+    cursor: pointer;
+}
+
+.cards .card img {
+    width: 100%;
+
+}
+
+.cards .card p {
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(144, 235, 53);
+}
+
+/* О ПРИЛОЖЕНИИ */
+
+section {
+    width: 100%;
+
+}
+
+section h2{
+    text-align: center;
+    color: violet;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 100px;
+
+}
+
+.pril {
+    padding-bottom: 4%;
+    border-bottom: 4px solid rgb(221, 19, 19);
+}
+
+section .banner {
+    width: 96%;
+    margin: auto;
+    position: relative;
+}
+
+section .banner > .video {
+    width: 100%;
+}
+
+section .banner > .play {
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    width: 75px;
+    cursor: pointer;
+}
+
+.fiveCards {
+    width: 70%;
+    margin: auto;
+    margin-top: 4%;
+    height: 550px;
+    position: relative;
+}
+
+.fiveCards .app {
+    width: 250px;
+    position: absolute;
+}
+
+.app:nth-child(2) {
+    left: 20%;
+}
+
+
+.app:nth-child(3) {
+    left: 40%;
+}
+
+.app:nth-child(4) {
+    left: 60%;
+}
+.app:nth-child(5) {
+    left: 80%;
+}
+
+.app:nth-child(even){
+    top: 5%;
+}
+
+
+
+/* О проекте */
+
+section {
+    border-bottom: 5px solid #451474;
+    padding-bottom: 20px;
+}
+.project {
+    margin-left: 40%;
+    font-size: 60px;
+}
+ 
+.pro {
+    
+    font-size: 40px;
+    width: 80%;
+    margin:auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+
+ /* скачать */
+.sk {
+    margin-left: 40%;
+    font-size: 60px;
+}
+
+.ica {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.ana {
+    width: 25%;
+    margin-bottom: 5%;
+}
+
+.ic {
+    width: 25%;
+    margin-bottom:5%
+}
+.at {
+    font-size: 40px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+
+
+
+/* SOME */
+
+
+.some{
+    background-color:rgb(70, 57, 190);
+    /* rgb(31, 31, 121) */
+}
+.so {
+    
+    font-size: 60px;
+    text-align: center;
+
+}
+.sai {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: 20px auto 20px;
+}
+
+.sai img {
+    width: 50px;
+}
+
+.so {
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    font-size: 45px;
+}
+
+
+.answer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+    width: 85%;
+    padding: 0 50px 20px;
+}
+#contacts{
+   margin-left: 50px;
+   
+}
+
+.americos {
+}
+
+#idishka {
+    margin-right: 50px;
+}
